@@ -1,0 +1,85 @@
+/* External CSS file for styling the TipToe Soles website */
+
+/* Resetting default margin and padding */
+html, body, header, footer, nav, section, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Setting a monochromatic color theme */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light grey background */
+    color: #333; /* Dark grey text color */
+}
+
+/* Styling the navigation menu */
+nav ul {
+    list-style-type: none;
+    background-color: #444; /* Dark grey background for navigation */
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff; /* White text color */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #666; /* Darker grey background on hover */
+}
+
+/* Styling the header */
+header {
+    background-color: #ccc; /* Light grey background for header */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Styling the sections */
+section {
+    padding: 20px;
+}
+
+/* Styling the footer */
+footer {
+    background-color: #444; /* Dark grey background for footer */
+    color: #fff; /* White text color */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Styling social media icons */
+.social-media a img {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+}
+
+/* Styling company logo */
+.company-logo img {
+    width: 100px;
+    height: auto;
+}
+
+/* Styling hyperlinks */
+a:link, a:visited {
+    color: #007bff; /* Blue for regular and visited links */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0056b3; /* Darker blue on hover */
+}
+
+/* Styling current page indicator */
+nav ul li.current a {
+    font-weight: bold;
+}
+
