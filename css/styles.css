@@ -1,16 +1,16 @@
 /* External CSS file for styling the TipToe Soles website */
 
-/* Resetting default margin and padding */
+/* default margin and padding */
 html, body, header, footer, nav, section, ul, li {
     margin: 0;
     padding: 0;
 }
 
-/* Setting a monochromatic color theme */
+/* Setting a monochromatic colour theme */
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0; /* Light grey background */
-    color: #333; /* Dark grey text color */
+    color: #333; /* Dark grey text colour */
 }
 
 /* Styling the navigation menu */
@@ -27,17 +27,17 @@ nav ul li {
 nav ul li a {
     display: inline-block;
     padding: 10px 20px;
-    color: #fff; /* White text color */
+    color: #fff; /* White text colour */
     text-decoration: none;
 }
 
 nav ul li a:hover {
-    background-color: #666; /* Darker grey background on hover */
+    background-color: #666; /* Darker grey background for hover */
 }
 
 /* Styling the header */
 header {
-    background-color: #ccc; /* Light grey background for header */
+    background-color: #ccc; /* Light grey background header */
     text-align: center;
     padding: 20px;
 }
@@ -45,12 +45,13 @@ header {
 /* Styling the sections */
 section {
     padding: 20px;
+	margin-bottom: 100px; /* Increase the margin bottom to create more space between the section and the footer */
 }
 
 /* Styling the footer */
 footer {
-    background-color: #444; /* Dark grey background for footer */
-    color: #fff; /* White text color */
+    background-color: #444; /* Dark grey background footer */
+    color: #fff; /* White text colour */
     text-align: center;
     padding: 20px;
 }
@@ -83,3 +84,41 @@ nav ul li.current a {
     font-weight: bold;
 }
 
+/* Styling the left navigation */
+.left-nav {
+    float: left; /* Float the left navigation to the left */
+    width: 25%; /* Set the width to 25% of the container */
+    border-right: none; /* Remove the border */
+    box-sizing: border-box; /* Include border in the width calculation */
+	min-height: 100vh; /* Set minimum height to 100% of the left border  height */
+}
+
+.left-nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.left-nav ul li {
+    padding: 10px;
+}
+
+.left-nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Styling the right content */
+.right-content {
+    margin-left: 25%; /* Adjust the margin to align with the left navigation */
+    padding: 20px; /* Add padding to separate from the left navigation */
+    box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+.right-content h2 {
+    margin-top: 0;
+}
+
+/* Styling the footer links */
+footer ul {
+    list-style-type: none; /* Remove dot points from the list of social media links */
+}
